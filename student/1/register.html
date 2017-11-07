@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/css/bootstrap.min.css"></script>
+    <script src="../js/stu.js"></script>
+</head>
+<body>
+<div style="margin:50px 250px" class="panel panel-default">
+    <div class="panel-heading">用户注册</div>
+    <div class="panel-body">
+    <form action="register_post.php" method="post" class="form" onsubmit="return checkUser();">
+        <div class="form-group">
+
+            <input type="text" name="username" id="username" class="form-control" placeholder="用户名">
+        </div>
+        <div class="form-group">
+
+            <input type="password" name="password" id="password" class="form-control" placeholder="密码">
+        </div>
+        <div class="form-group">
+
+            <input type="password" name="cfm" id="cfm" class="form-control" placeholder="确认密码">
+        </div>
+        <div class="form-group">
+
+            <input type="text" name="email" id="email" class="form-control" placeholder="邮箱">
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit" value="注册" class="btn btn-info btn-sm form-control">
+        </div>
+    </form>
+        </div>
+</div>
+</body>
+</html>
+
+
+
+
